@@ -1,0 +1,182 @@
+
+/* Main */
+body {
+    background-color: #24b6ff;
+}
+
+html{
+	font-family: "Ubuntu";
+	font-size: 25px;
+}
+
+h2 {
+	border: 1px solid #ebebeb;
+    color: white;
+    font-family: "Ubuntu";
+    font-size: 56;
+    text-align: left;
+	margin-left : 15px;   
+}
+
+/* Class */
+
+.Tab_Button1 {
+	margin-left: 15px;
+	margin-top: 15px;
+	position: absolute;
+	background-color:transparent;
+	display:block;
+	cursor:pointer;
+	color:#E5E5E5;
+	font-family:"Ubuntu";
+	font-size:28px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+.Tab_Button2 {
+	margin-left: 15px;
+	margin-top: 60px;
+	position: absolute;
+	background-color:transparent;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Ubuntu";
+	font-size:28px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+.Tab_Button3 {
+	margin-left: 15px;
+	margin-top: 105px;
+	position: absolute;
+	background-color:transparent;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Ubuntu";
+	font-size:28px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+.Tab_Button4 {
+	margin-left: 15px;
+	margin-top: 150px;
+	position: absolute;
+	background-color:transparent;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Ubuntu";
+	font-size:28px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+.support {
+	box-shadow: 0px 4px 4px 0px #707070;
+	background-color:#ffffff;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#278fff;
+	font-family:"Ubuntu";
+	font-size:28px;
+	font-weight:"Bold";
+	padding:15px 38px;
+	text-decoration:none;
+}
+
+.support:hover {
+	background-color:#ebebeb;
+}
+.support:active {
+	position: relative;
+	top:1px;
+}
+
+/* MIDDLE PART */
+.middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+	min-width: 200vh;
+	flex-direction: column;
+
+}
+
+.Bot {
+	width: 382px;
+	height: 354px;
+}
+
+.Text_Cody {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color:#ffffff;
+	font-family:"Ubuntu";
+	font-size:44px;
+	font-weight:Medium;
+
+}
+
+.SearchBar {
+	color:#4d4d4d;
+	font-family:"Ubuntu";
+	font-size:25px;
+	font-weight:Medium;
+	text-align: left;
+	background-color: #ffffff;
+	border-radius: 50px;
+	width: 826px;
+	height: 80px;	
+}
+
+.Speech {
+	border: solid 1px #ffffff;
+	display:inline-block;
+	margin-left:  20px;
+}
+
+.SearchBar img {
+	cursor:pointer;
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+
+}
+
+/* ID */
+#donate_button {
+	margin-right: 15px;
+	margin-top: 15px;
+	float: right;
+}
+
+#Tab_Base {
+	position: absolute ; z-index: 2;
+	margin-left: 15px;
+	margin-top: 15px;
+	width: 266px;
+	height: 240px;
+	display: block;
+	cursor:pointer;
+	float: left;
+}
+
+#Tab_Base:hover  {
+	display: none;
+	transition: 0.75s;
+}
+
+
+
+

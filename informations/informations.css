@@ -1,0 +1,293 @@
+
+
+/* Main */
+body {
+    background-color: #ffffff;
+	margin: 0;
+}
+
+html{
+	font-family: "Ubuntu";
+	font-size: 25px;
+}
+
+h2 {
+	border: 1px solid #ebebeb;
+    color: white;
+    font-family: "Ubuntu";
+    font-size: 56;
+    text-align: left;
+	margin-left : 15px;   
+}
+
+/* Class */
+.Wave {
+	position: absolute;
+	& alpha {
+		p
+	}
+}
+
+.Tab_Button1 {
+	margin-left: 20px;
+	margin-top: 25px;
+	position: absolute;
+	background-color:transparent;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Ubuntu";
+	font-size:28px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+.Tab_Button2 {
+	margin-left: 20px;
+	margin-top: 65px;
+	position: absolute;
+	background-color:transparent;
+	display:block;
+	cursor:pointer;
+	color:#E5E5E5;
+	font-family:"Ubuntu";
+	font-size:28px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+.Tab_Button3 {
+	margin-left: 20px;
+	margin-top: 110px;
+	position: absolute;
+	background-color:transparent;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Ubuntu";
+	font-size:28px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+.Tab_Button4 {
+	margin-left: 20px;
+	margin-top: 155px;
+	position: absolute;
+	background-color:transparent;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Ubuntu";
+	font-size:28px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+}
+
+
+
+/* MIDDLE PART */
+
+#Tab_Base {
+	position: absolute ; z-index: 2;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 266px;
+	height: 240px;
+	display: block;
+	cursor:pointer;
+	float: left;
+}
+
+#Tab_Base:hover  {
+	display: none;
+	transition: 0.75s;
+}
+
+
+/* Corps */ 
+.first_part {
+	display: inline-flex;
+	margin-top: 350px;
+}
+
+.first_part img {
+	width: 850px;
+	margin-left: 100px;
+}
+
+.biographie {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+#title_bio {
+	margin-left: 75px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	color:#000000;
+	font-family:"Ubuntu";
+	font-size:35px;
+	font-weight:bold;
+}
+
+.biographie p {
+	margin-right: 100px;
+	margin-left: 75px;
+}
+
+#github {
+	font-weight: bold;
+	color:#3F3D56;
+	cursor:pointer;
+	background-color: transparent;
+	text-decoration:none;
+}
+
+.second_part {
+	display: inline-flex;
+	margin-top: 50px;
+	width: 100%;
+}
+
+#title_2 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	color:#000000;
+	font-family:"Ubuntu";
+	font-size:35px;
+	font-weight:bold;
+}
+
+.history {
+	display: flex;
+	flex-direction: column;
+	width: 850px;
+	margin-left: 100px;
+}
+
+.img_Cody img {
+	margin-top: 50px;
+	width: 500px;
+	margin-left: 250px;
+	margin-bottom: 50px;
+}
+
+
+/* third_part */
+
+.third_part {
+	display: inline-flex;
+	width: 100%;
+}
+
+.image {
+	margin-left: 100px;
+	margin-top: 200px;
+}
+
+.image img {
+	width: 850px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+}
+
+#title_contact {
+	margin-left: 200px;
+	margin-top: 50px;
+	color:#000000;
+	font-family:"Ubuntu";
+	font-size:35px;
+	font-weight:bold;
+}
+
+/* Form */
+
+.container {
+	width: 100vh;
+	max-width: 500px;
+	padding: 20px;
+	margin-top: 25px;
+	box-shadow: 0px 0px 20px #00000010;
+	background-color: white;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	margin-left: 225px;
+}
+
+.form-group {
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+  }
+  .form-group input,
+  .form-group textarea {
+	width: 100%;
+	padding: 5px;
+	font-size: 18px;
+	border: 1px solid rgba(128, 128, 128, 0.199);
+	margin-top: 5px;
+  }
+  
+  textarea {
+	resize: vertical;
+  }
+  button[type="submit"] {
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 20px;
+	font-size: 24px;
+	border-radius: 8px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #24b6ff;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: 0.3s ease background-color;
+  }
+  button[type="submit"]:hover {
+	background-color: rgb(214, 226, 236);
+  }
+  #status {
+	width: 90%;
+	max-width: 500px;
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	margin-left: 235px;
+	margin-bottom: 100px;
+	border-radius: 8px;
+  }
+  #status.success {
+	background-color: rgb(211, 250, 153);
+	animation: status 4s ease forwards;
+  }
+  #status.error {
+	background-color: rgb(250, 129, 92);
+	color: white;
+	animation: status 4s ease forwards;
+  }
+  @keyframes status {
+	0% {
+	  opacity: 1;
+	  pointer-events: all;
+	}
+	90% {
+	  opacity: 1;
+	  pointer-events: all;
+	}
+	100% {
+	  opacity: 0;
+	  pointer-events: none;
+	}
+  }
